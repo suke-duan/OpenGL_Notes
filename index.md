@@ -7,7 +7,7 @@
   生成buffer的个数，GLsizei类型
   </details>
   
-  &nbsp&nbsp&nbsp&nbsp<details>
+  <details>
   <summary>buffer</summary>
   生成的buffer，GLuint的指针类型<br>
   注:此时的buffer没有数据，
