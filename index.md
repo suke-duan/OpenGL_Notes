@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
+## 使用VBO绘图
+<details>
+<summary>VBO</summary>
+作用:生成一个VBO
+参数:
+</details>
+<details>
+<summary>glInterleavedArrays</summary>
+作用:分离数组
+<details>
+<summary>format</summary>
+参数1:GL_C4F_N3F_V3F<br>
+参数2:GL_C4F_N3F_V3F
+参数3:GL_C4F_N3F_V3F
+</details>
+<summary>format</summary>
+参数1:GL_C4F_N3F_V3F
+参数2:GL_C4F_N3F_V3F
+参数3:GL_C4F_N3F_V3F
+  </details>
+</details>
 
-You can use the [editor on GitHub](https://github.com/suke-duan/OpenGL_Notes/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+<img src="https://latex.codecogs.com/gif.latex?\frac{x}{y}" title="\frac{x}{y}" />
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/suke-duan/OpenGL_Notes/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
