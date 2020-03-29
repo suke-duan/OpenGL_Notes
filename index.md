@@ -6,7 +6,7 @@
 </details>
 <details>
 <summary>glInterleavedArrays</summary>
-  分离数组: VBO是个组合的数组，通过该函数，将数组分离出顶点、颜色、纹理等数据
+&nbsp&nbsp分离数组: VBO是个组合的数组，通过该函数，将数组分离出顶点、颜色、纹理等数据
 <details>
 <summary> format</summary>
 格式:数组里面数据的格式，有如下选项
