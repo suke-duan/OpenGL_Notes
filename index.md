@@ -25,10 +25,12 @@ GL_T2F_N3F_V3F: 纹理+法矢+三维顶点，数据类型为浮点型<br>
 GL_T2F_C4F_N3F_V3F: 纹理+颜色+法矢+三维顶点，数据类型为浮点型<br>
 GL_T4F_C4F_N3F_V4F: 纹理+颜色+法矢+三维顶点，数据类型为浮点型<br>
 </details>
+<details>
 <summary>stride</summary>
 步长: 前一个数据与后一个数据的距离，如果是0，表示紧挨着<br>
 含义
 </details>
+<details>
 <summary>pointer</summary>
 指针<br>
 含义
