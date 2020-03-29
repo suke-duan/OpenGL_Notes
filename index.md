@@ -2,7 +2,7 @@
 <details>
 <summary>glGenBuffers(n,buffer):生成一个VBO缓存</summary>
   &nbsp&nbsp&nbsp&nbsp相当于告知某个指针是用于存放VBO缓存的
-  &nbsp&nbsp&nbsp&nbsp<details>
+  <details>
   <summary>n</summary>
   生成buffer的个数，GLsizei类型
   </details>
