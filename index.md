@@ -2,12 +2,12 @@
 <details>
 <summary>glGenBuffers(n,buffer):生成一个VBO缓存</summary>
   &nbsp&nbsp&nbsp&nbsp相当于告知某个指针是用于存放VBO缓存的
-  <details>
+  &nbsp&nbsp&nbsp&nbsp<details>
   <summary>n</summary>
   生成buffer的个数，GLsizei类型
   </details>
   
-  <details>
+  &nbsp&nbsp&nbsp&nbsp<details>
   <summary>buffer</summary>
   生成的buffer，GLuint的指针类型<br>
   注:此时的buffer没有数据，
