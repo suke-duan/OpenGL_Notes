@@ -1,16 +1,33 @@
 ## 使用VBO绘图
 <details>
 <summary>glGenBuffers(n,buffer):生成一个VBO缓存</summary>
-&nbsp&nbsp&nbsp&nbsp
-<details>
-<summary>n</summary>
-生成buffer的个数
+  &nbsp&nbsp&nbsp&nbsp相当于告知某个指针是用于存放VBO缓存的
+  <details>
+  <summary>n</summary>
+  生成buffer的个数，GLsizei类型
+  </details>
+  
+  <details>
+  <summary>buffer</summary>
+  生成的buffer，GLuint的指针类型<br>
+  注:此时的buffer没有数据，
+  </details>
 </details>
+
 <details>
-<summary>buffer</summary>
-生成的buffer<br>
-注:此时的buffer没有数据，
+<summary>glBindBuffer(target,buffer):绑定缓存</summary>
+  <details>
+  <summary>target:缓存绑定的目标</summary>
+    &nbsp&nbsp&nbsp&nbsp就是告知缓存是用来干嘛的，有两种用法
+    GL_ARRAY_BUFFER	顶点数据缓冲
+    GL_ELEMENT_ARRAY_BUFFER	顶点指示缓冲
+  </details>
+  
+  <details>
+  <summary>buffer</summary>
+  </details>
 </details>
+
 <details>
 <summary>glInterleavedArrays(format,stride,pointer):分离数组</summary>
 &nbsp&nbsp&nbsp&nbsp:VBO是个组合的数组，通过该函数，将数组分离出顶点、颜色、纹理等数据
