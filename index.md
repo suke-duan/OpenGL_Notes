@@ -1,12 +1,19 @@
 ## 使用VBO绘图
 <details>
-<summary>VBO</summary>
-作用: 生成一个VBO
-参数:
+<summary>glGenBuffers(n,buffer):生成一个VBO缓存</summary>
+&nbsp&nbsp&nbsp&nbsp
+<details>
+<summary>n</summary>
+生成buffer的个数
 </details>
 <details>
-<summary>glInterleavedArrays</summary>
-&nbsp&nbsp分离数组: VBO是个组合的数组，通过该函数，将数组分离出顶点、颜色、纹理等数据
+<summary>buffer</summary>
+生成的buffer<br>
+注:此时的buffer没有数据，
+</details>
+<details>
+<summary>glInterleavedArrays(format,stride,pointer):分离数组</summary>
+&nbsp&nbsp&nbsp&nbsp:VBO是个组合的数组，通过该函数，将数组分离出顶点、颜色、纹理等数据
 <details>
 <summary> format</summary>
 格式:数组里面数据的格式，有如下选项
@@ -38,7 +45,7 @@ GL_T4F_C4F_N3F_V4F: 纹理+颜色+法矢+三维顶点，数据类型为浮点型
 </details>
 
 
-
+这是一个公式插入github的参照，不要管他<br>
 <img src="https://latex.codecogs.com/gif.latex?\frac{x}{y}" title="\frac{x}{y}" />
 
 
